@@ -11,6 +11,15 @@ package leetcode.dsa.medium;
          this.left = left;
          this.right = right;
      }
+
+     @Override
+     public String toString() {
+         return "TreeNode{" +
+                 "val=" + val +
+                 ", left=" + left +
+                 ", right=" + right +
+                 '}';
+     }
  }
 public class Q1379_Find_a_Corresponding_Node_of_a_Binary_Tree_in_a_Clone_of_That_Tree {
     public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
